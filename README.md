@@ -1,8 +1,8 @@
 # EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
 
-Name :VISHAL GOWTHAMAN K R
+Name :LOGESHWARI P
 
-Roll no :212221230123
+Roll no :212221230055
 
  
 
@@ -187,9 +187,9 @@ int main(void)
 {
 
 	LCD_INIT();
-	LCD_STRING("212221230123");//first line
+	LCD_STRING("212221230055");//first line
 	LCD_CMD(0xC0);
-	LCD_STRING("VISHAL GOWTHAMAN K R");//second line
+	LCD_STRING("LOGESHWARI P");//second line
 
 	return 0;
 }
